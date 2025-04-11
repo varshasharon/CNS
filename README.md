@@ -28,7 +28,31 @@ becomes C. To change a message back, each letter is replaced by the one three be
 
 
 PROGRAM :-
-
+```
+        function encrypt()
+        {
+            let message = document.getElementById("pt").value;
+            let key = parseInt(document.getElementById("key").value);
+            let result = "";
+            for(let i=0;i<message.length;i++)
+            {
+                let char = message[i];
+                if(char.match(/[a-zA-Z]/))
+                {
+                    let code = char.charCodeAt(0);
+                    let base = (code >= 65 && code <= 90)?65 : 97;
+                    let newCode = ((code-base+key)%26) +base;
+                    result += String.fromCharCode(newCode); 
+                }
+                else{
+                    result += char;
+                }
+            }
+            document.getElementById("ct").innerText =  result ;
+        
+        
+        }
+  ```  
 
 
 OUTPUT :-
