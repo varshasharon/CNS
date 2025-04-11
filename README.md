@@ -1,5 +1,7 @@
 ## EX. NO: 1(A) : IMPLEMENTATION OF CAESAR CIPHER
- 
+
+### Name: E Varsha Sharon
+### Register number: 212222100058
 
 ## AIM:
 
@@ -27,7 +29,7 @@ becomes C. To change a message back, each letter is replaced by the one three be
 ### STEP-5: Display the cipher text obtained above.
 
 
-PROGRAM :-
+## PROGRAM :
 ```
         function encrypt()
         {
@@ -55,4 +57,9 @@ PROGRAM :-
   ```  
 
 
-OUTPUT :-
+## Output :
+![image](https://github.com/user-attachments/assets/6902eb9d-8406-44c9-873b-379e74cd8317)
+![image](https://github.com/user-attachments/assets/c514e346-38b9-4640-a8d2-c93d485938ef)
+
+## Result:
+Thus, the Caesar Cipher Encryption is successfully implemented.
